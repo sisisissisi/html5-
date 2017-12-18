@@ -7,3 +7,29 @@ html5增加了很多语义元素，他们本身滨不会有什么样式，只是
 <!--[if lt IE 9]>
 <script src="http://html5shim.goolecode.com/svn/trunk/html5.js"></script>
 <![enfif]-->
+
+html5元素
+
+<figure>
+  <img src="">
+  <figucaption>标题，只能是和figure一起使用</figucaption>
+  <p>一些描述信息</p>
+</figure>
+
+<section>
+定义文档中的一个 区块
+建议section值出现在标题（h1~h6）和p还可有img
+一般时候 可以用在一些展示性列表，有标题和段落或 标题和段落、图片
+</section>
+
+
+<input type="text" list="abc">
+<datalist  id="abc">
+<option value="110"> 警察</option>
+</datalist>
+联想的词是value的值，后面的提示是标签对的值
+
+input 
+以前的type：text button password file submit checkbox radiob file reset
+新增的type：data number range search url tel
+autofocus：自动聚焦
