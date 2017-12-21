@@ -33,3 +33,14 @@ input
 以前的type：text button password file submit checkbox radiob file reset
 新增的type：data number range search url tel
 autofocus：自动聚焦
+
+选择器：
+p~div  匹配某个元素之后的兄弟
+p+div  匹配某个元素之后紧跟着的元素
+.box::first-letter  首字符
+.box::first-line    首行
+.box::selection   选择时文字的样式
+h3:only-of-type:只包含一个同类型的元素（只有一个h3的能被选上）的改变样式
+h3:only-child  h3是唯一的子元素时
+contenteditable="true"  可编辑的段落 是相当于innerHTML的  例如  <div contenteditable="true"></div>   div[contenditable]:empty:after{} 可以 做空
+
