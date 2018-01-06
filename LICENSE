@@ -46,3 +46,4 @@ box-shadow:x y size (增强) color
 text-shadow:同理
 calc：计算长度的，特别适用于百分比的时候
 width：calc(100%-2*20px);
+做有些渐变时，高亮的颜色其实是好几个渐变堆叠而成，透明度的放前面
