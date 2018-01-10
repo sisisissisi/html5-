@@ -48,3 +48,6 @@ calc：计算长度的，特别适用于百分比的时候
 width：calc(100%-2*20px);
 做有些渐变时，高亮的颜色其实是好几个渐变堆叠而成，透明度的放前面
 border-sixing:border-box  不去计算border和padding   该多大就多大
+3d的学习感触：
+1.transfor:translateX() translateY() translateZ();
+当用到 translateZ()时需要在他的父级（俗称舞台元素）设置transform-style:preserve-3d(开启3d模式) 并且在其父级设置景深perspective:500px（一般是500-800px）
